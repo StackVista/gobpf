@@ -52,6 +52,7 @@ import (
 #include <string.h>
 #include <linux/if_link.h>
 #include <linux/rtnetlink.h>
+#include <asm/unistd.h>
 
 static int perf_event_open_tracepoint(int tracepoint_id, int pid, int cpu,
                            int group_fd, unsigned long flags)
